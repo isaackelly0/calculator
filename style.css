@@ -1,0 +1,14 @@
+center{
+  margin-top: 300px;
+}
+#container{
+  background-color: red;
+  width: 360px;
+  height: 360px;
+}
+button{
+  margin: 10px;
+  padding: 10px;
+  display: inline-grid;
+
+}
