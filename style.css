@@ -1,8 +1,11 @@
+body{
+  background-color: purple;
+}
 center{
   margin-top: 300px;
 }
 #container{
-  background-color: red;
+  background-color: blue;
   width: 360px;
   height: 360px;
 }
@@ -10,5 +13,12 @@ button{
   margin: 10px;
   padding: 10px;
   display: inline-grid;
+  border-radius: 5px;
 
+}
+.number{
+  background-color: yellow;
+}
+.operation{
+  background-color: orange;
 }
