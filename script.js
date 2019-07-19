@@ -4,7 +4,7 @@ const numButton = document.querySelectorAll('.number');
 const opButton = document.querySelectorAll('.operation');
 const equals = document.querySelector('#equals');
 function operation(arr){
-
+  console.log(arr);
 };
 function display(){
 
@@ -25,5 +25,6 @@ opButton.forEach(function(elem){
 })
 //call operation function to evaluate list of numbers
 equals.addEventListener('click', function(){
+  numbers.push(num);
   operation(numbers);
 })
