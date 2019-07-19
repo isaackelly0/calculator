@@ -10,18 +10,19 @@ center{
   height: 360px;
 }
 button{
-  margin: 10px;
-  padding: 10px;
+  width: 50px;
+  height: 50px;
   display: inline-grid;
   border-radius: 5px;
-
 }
 .number{
-  background-color: yellow;
+  background-color: grey;
 }
 .operation{
   background-color: orange;
 }
 .display{
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
 }
