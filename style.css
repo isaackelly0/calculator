@@ -13,7 +13,9 @@ button{
   width: 50px;
   height: 50px;
   display: inline-grid;
-  border-radius: 5px;
+  border-radius: 0px;
+  horizontal-align: center;
+  border: none;
 }
 .number{
   background-color: grey;
