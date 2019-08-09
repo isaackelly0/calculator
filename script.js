@@ -51,7 +51,7 @@ opButton.forEach(function(elem){
       numbers[numbers.length - 1] != '-' &&
       numbers[numbers.length - 1] != '/' &&
       numbers[numbers.length - 1] != '*') ||
-      numbers[0] != ''){
+      num != ''){
         numbers.push(num);
         numbers.push(elem.innerHTML);
         num = '';
