@@ -1,21 +1,25 @@
 body{
-  background-color: purple;
+  background-color: black;
 }
 center{
-  margin-top: 300px;
+  margin-top: 200px;
 }
 #container{
   background-color: blue;
-  width: 360px;
-  height: 360px;
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
 }
 button{
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 90px;
   display: inline-grid;
-  border-radius: 0px;
+  border-radius: 20px;
   horizontal-align: center;
   border: none;
+  font-size: 20px;
+  margin: 5px;
+  padding-top: 30px;
 }
 .number{
   background-color: grey;
@@ -24,7 +28,12 @@ button{
   background-color: orange;
 }
 .display{
-  margin-top: 30px;
+  margin-top: 60px;
   margin-bottom: 30px;
   padding: 10px;
+  width: 350px;
+  height: 50px;
+  font-size: 25px;
+  border-color: black;
+  color: black;
 }
