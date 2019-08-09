@@ -5,15 +5,15 @@ const opButton = document.querySelectorAll('.operation');
 const equals = document.querySelector('#equals');
 const clear = document.querySelector('#clear');
 var displayBar = document.querySelector('.display');
-function operation(arr){
+function operation(){
   //get rid of divide by zeros
-  for(let i = 0; i < arr.length; i++){
-    if(arr[i] === '/' && arr[i+1] === '0'){
-      arr[i] = '+';
+  for(let i = 0; i < numbers.length; i++){
+    if(numbers[i] === '/' && numbers[i+1] === '0'){
+      numbers[i] = '+';
       alert("Try not to divide by zeros");
     }
   }
-  let answer = arr.join('');// merge array into a single string
+  let answer = numbers.join('');// merge array into a single string
   // no trail ends
   if(answer[answer.length - 1] === '+' || answer[answer.length - 1] === '-'){
     answer += '0';
@@ -23,8 +23,8 @@ function operation(arr){
   }
   //empty array and num values
   //make first index of array the evaluated answer
-  arr = [];
-  arr.push(eval(answer));
+  numbers = [];
+  numbers.push(eval(answer));
   num = ''
 };
 // display the string of numbers and operands
