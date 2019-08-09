@@ -47,10 +47,10 @@ numButton.forEach(function(elem){
 opButton.forEach(function(elem){
   elem.addEventListener('click', function(){
     //make sure no two operands are piled onto each other
-    if(numbers[numbers.length - 1] != '+' &&
+    if((numbers[numbers.length - 1] != '+' &&
       numbers[numbers.length - 1] != '-' &&
       numbers[numbers.length - 1] != '/' &&
-      numbers[numbers.length - 1] != '*' &&
+      numbers[numbers.length - 1] != '*') ||
       numbers[0] != ''){
         numbers.push(num);
         numbers.push(elem.innerHTML);
