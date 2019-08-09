@@ -20,6 +20,7 @@ button{
   font-size: 20px;
   margin: 5px;
   padding-top: 30px;
+  background-color: orange;
 }
 .number{
   background-color: grey;
@@ -28,7 +29,7 @@ button{
   background-color: orange;
 }
 .display{
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 30px;
   padding: 10px;
   width: 350px;
